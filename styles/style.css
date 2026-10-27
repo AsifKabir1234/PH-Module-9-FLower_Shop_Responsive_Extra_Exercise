@@ -376,11 +376,11 @@ footer .footer-copyright{
   
 
   footer{
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding: 50px 20px;
   }
   
   .footer-title{
     font-size: 3rem;
   }
+
 }
