@@ -234,6 +234,24 @@ header > section {
 
 
 
+/* Social Related Styles */
+
+.soical-container{
+  text-align: center;
+  margin-top: 100px;
+}
+
+.social-images{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+}
+
+.social-image img{
+  width: 100%;
+}
+
+
 
 
 
@@ -290,6 +308,13 @@ header > section {
     margin: 50px 20px;
   }
 
+
+  .social-images{
+    grid-template-columns: repeat(2, 1fr);
+    margin: 20px;
+    padding: 20px;
+  }
   
+
  
 }
